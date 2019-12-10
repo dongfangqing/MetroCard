@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="校园一卡通"
+        android:textSize="19dp" />
+
+    <Button
+        android:id="@+id/bt_Scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="74dp"
+        android:background="#FFF0F3"
+        android:text="扫描付款" />
+    
+   
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/bt_Scan"
+        android:layout_below="@+id/textView1"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="62dp"
+        android:text="卡中余额 : "
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/tv_q"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/bt_Scan"
+        android:layout_marginLeft="41dp"
+        android:hint="00"
+         android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_q"
+        android:layout_alignBottom="@+id/tv_q"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="RMB"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/bt_js"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt_Scan"
+        android:layout_below="@+id/textView1"
+        android:background="#FFF0F3"
+        android:text="学院介绍"
+        android:textColor="#DCDCDC"
+        android:textSize="17dp" />
+
+</RelativeLayout>

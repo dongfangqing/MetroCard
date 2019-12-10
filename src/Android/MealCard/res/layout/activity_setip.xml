@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card">
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:textSize="23dp"
+        android:text="智能校园一卡通" />
+
+               <TextView
+                   android:id="@+id/tv_ip"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignBaseline="@+id/et_ip"
+                   android:layout_alignBottom="@+id/et_ip"
+                   android:layout_toLeftOf="@+id/et_ip"
+                   android:text="IP 号:"
+                   android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_port"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/et_port"
+                    android:layout_alignBottom="@+id/et_port"
+                    android:layout_toLeftOf="@+id/et_ip"
+                    android:text="端口 号:"
+                    android:textSize="18sp" />
+
+                     <EditText
+                         android:id="@+id/et_port"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/tv_ip"
+                         android:layout_marginTop="26dp"
+                         android:layout_toRightOf="@+id/tv_ip"
+                         android:background="#FFFFFF"
+                          android:text="333"
+                         android:ems="8" />
+
+                     <EditText
+                         android:id="@+id/et_ip"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_alignLeft="@+id/tv_1"
+                         android:layout_below="@+id/tv_1"
+                         android:layout_marginTop="105dp"
+                         android:text="192.168.4.1"
+                         android:background="#FFFFFF"
+                         android:ems="8" >
+
+                         <requestFocus />
+                     </EditText>
+
+                     <Button
+                         android:id="@+id/bt_connect"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/et_port"
+                         android:layout_centerHorizontal="true"
+                         android:layout_marginTop="46dp"
+                         android:background="#FFFFF4"
+                         android:text="连接" />
+
+</RelativeLayout>

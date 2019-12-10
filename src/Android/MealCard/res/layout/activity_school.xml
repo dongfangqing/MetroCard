@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card">
+
+           <TextView
+               android:id="@+id/tv_1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="15dp"
+               android:text="芯知识学堂"
+               android:textColor="#76EEC6"
+               android:textSize="32dp" />
+
+           <TextView
+               android:id="@+id/TextView01"
+               android:layout_width="wrap_content"
+               android:layout_height="130dp"
+               android:layout_alignParentLeft="true"
+               android:layout_below="@+id/tv_1"
+               android:layout_marginTop="15dp"
+               android:text="        好看的皮囊千篇一律， 有料的大脑万里挑一! 研发的梦想带你入门， 无尽的学识助你成长 ! "
+               android:textColor="#696969"
+               android:textSize="26sp" />
+
+           <TextView
+               android:id="@+id/tv_ip"
+               android:layout_width="wrap_content"
+               android:layout_height="130dp"
+               android:layout_alignParentLeft="true"
+               android:layout_below="@+id/TextView01"
+               android:layout_marginTop="50dp"
+               android:text="      有想进来一起看我们的文章、视频的朋友可以 加 《物联网/嵌入式开发QQ群:544101253》或《单片机/工控技术交流QQ群:82558344;》 或 进群后联系群主：然后进入我们的VIP微信群"
+               android:textColor="#696969"
+               android:textSize="26sp" />
+
+           <TextView
+               android:id="@+id/TextView02"
+               android:layout_width="wrap_content"
+               android:layout_height="130dp"
+               android:layout_alignParentLeft="true"
+               android:layout_alignTop="@+id/TextView01"
+               android:layout_marginTop="83dp"
+               android:text="      我们一直走的是开源、免费路线！！里面的原创优质文章、书籍、视频共享给喜欢这一行的兄dei们！！！"
+               android:textColor="#696969"
+               android:textSize="26sp" />
+ 
+</RelativeLayout>
